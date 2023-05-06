@@ -42,25 +42,25 @@ export function Content() {
             For testing purposes, I'm going to leave this here until light mode is ready.
             <ModeToggle />
              */}
-            <motion.p
+            {/* <motion.p
               className="text-left font-default text-lg font-light text-[#999999] sm:text-xl"
               variants={FADE_DOWN_ANIMATION_VARIANTS}
-            >
-              {/*
+            > */}
+            {/*
               Currently there is a bug with the text scrambler on mobile. I'm going to leave this here until I can fix it.
                <TextScrambler>Design Engineer</TextScrambler>
                 */}
-              Design Engineer
-            </motion.p>
+            {/* Design Engineer
+            </motion.p> */}
           </div>
           <motion.p
             className="text-left font-default text-lg font-light text-[#999999] sm:text-xl"
             variants={FADE_DOWN_ANIMATION_VARIANTS}
           >
-            A detail oriented frontend software engineer interested in Next.js,
-            Prisma, React, React Native, TypeScript, and Tailwind CSS.
-            Passionate about AI, privacy, and real estate. Previously founding
-            team at{' '}
+            A detail oriented frontend software engineer working with tools like
+            Next.js, Prisma, React, React Native, Open AI, TypeScript, and
+            Tailwind CSS. Interested in AI, privacy, and real estate. Previously
+            founding team at{' '}
             <Link
               href="https://paytient.com"
               target={'_blank'}
@@ -68,7 +68,7 @@ export function Content() {
             >
               Paytient
             </Link>
-            , a new way to pay for out of pocket health care expenses.
+            .
           </motion.p>
           <div />
           <motion.div variants={FADE_DOWN_ANIMATION_VARIANTS}>
